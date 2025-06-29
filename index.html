@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyberia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+
+  <div id="ui">
+    <p id="status">System Initializing...</p>
+    <p>System Health: <span id="systemHealthDisplay">0%</span></p>
+    <p>Player Health: <span id="playerHealthDisplay">0%</span></p>
+    <p>Keys: <span id="keysDisplay">0</span> | Shards Delivered: <span id="shardsDisplay">0</span></p>
+    <button onclick="game.pause()">Pause</button>
+    <button onclick="game.resume()">Resume</button>
+    <button onclick="game.reset()">Reset</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

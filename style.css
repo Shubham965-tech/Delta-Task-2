@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+#gameCanvas {
+  display: block;
+}
+
+#ui {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border: 1px solid lime;
+  border-radius: 5px;
+}
+
+#status {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  background: lime;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: lightgreen;
+}
